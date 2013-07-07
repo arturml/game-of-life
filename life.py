@@ -92,7 +92,7 @@ def main():
                     	if alives == 3:
                             new_grid[i][j] = True
                         else:
-                        	new_grid[i][j] = False
+                            new_grid[i][j] = False
         grid = copy(new_grid)  
             
         draw_grid(screen, grid)
