@@ -44,7 +44,7 @@ def start_screen(screen, grid):
         
 
         draw_grid(screen, grid)
-      draw_lines(screen, grid)
+        draw_lines(screen, grid)
 
         for event in pygame.event.get():
             if event.type == MOUSEBUTTONDOWN:
