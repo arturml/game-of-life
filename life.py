@@ -1,6 +1,5 @@
 import pygame
 import sys
-from random import *
 from pygame.locals import *
 
 #        CONSTANTS
